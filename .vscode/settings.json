@@ -1,0 +1,9 @@
+{
+    "json.schemas": [],
+    
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "javascriptreact": "html"
+    },
+    "emmet.triggerExpansionOnTab": true
+}

@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark);
+    padding: 20px;
+}
+
+.navbar h1{
+   margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+.yellow-btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: var(--yellow);
+    font-weight:600;
+    color: var(--dark);
+}
