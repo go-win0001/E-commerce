@@ -73,3 +73,21 @@
   min-width: 20px;
   text-align: center;
 }
+
+.last-btn{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.yellow-btn{
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: var(--yellow);
+    font-weight:600;
+    color: var(--dark);
+}
+
+.heading{
+  font-weight: 400;
+  size: 18px;
+}

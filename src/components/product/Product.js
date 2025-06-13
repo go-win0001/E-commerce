@@ -1,6 +1,4 @@
 
-
-import products from '../../products.json'
 import  './Products.css'
 
 
@@ -14,11 +12,11 @@ function Items({image,name,addToCart,id}){
     )
 }
 
-function Products({addToCart}){
+function Products({addToCart,allProducts}){
     return(
         <div className='products'>
            {
-            products.map((data)=>(
+            allProducts.map((data)=>(
                 <Items  key={data.id} id={data.id} image={data.image} name={data.name} addToCart={addToCart}/>
             ))
            }
